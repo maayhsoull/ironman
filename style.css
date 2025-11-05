@@ -1,0 +1,39 @@
+body{
+    background-color: tomato;
+
+}
+header{
+    margin-left: 50px;
+    margin-top: 32px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: bisque;
+
+}
+.marvel{
+    width: 268px;
+    height: 59.9px;
+}
+.options{
+    width: 386px;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+
+}
+.Search{
+    width: 17px;
+    height: 17px;
+}
+.dashboard{
+    width: 17px;
+    height: 17px;
+}
+.user{
+    width: 17px;
+    height: 17px;
+}
