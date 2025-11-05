@@ -1,29 +1,26 @@
 body{
-    background-color: tomato;
-
+    background-color: #F8FAFE;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    height: 100vh;
+    width: 100vw;
 }
 header{
-    margin-left: 50px;
-    margin-top: 32px;
-    margin-right: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    background-color: bisque;
 
-}
-.marvel{
-    width: 268px;
-    height: 59.9px;
 }
 .options{
+    font-size: 18;
     width: 386px;
     height: 27px;
+    gap: 35px;
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
-
+    align-items: center;
 }
 .Search{
     width: 17px;
@@ -37,3 +34,78 @@ header{
     width: 17px;
     height: 17px;
 }
+.global{
+    display: flex;
+
+    flex-grow: 1;
+
+}
+.social{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: end;
+
+    
+}
+.mainAndFooter{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.github{
+    width: 44px;
+}
+.figma{
+    width: 44px;
+}
+.Twitter{
+    width: 44px;
+}
+.instagram{
+    width: 44px;
+}
+main{
+    display: flex;
+
+}
+.txt{
+    width: 441px;
+    height: 324px;
+    margin: 150px 0px 0px 150px;
+
+}
+.buttom{
+    margin: 0px 0px 90px 150px;
+    width: 362px;
+    height: 57px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px; 
+        
+}
+
+.personagem{
+    margin: 64.26px 154px 0px 194px;
+
+}
+.ironMan{
+    display: flex;
+    flex-direction: column-reverse;
+    transform: rotate(270deg);
+    position: absolute;
+    font-size: 200px;
+    right: -250px;
+    top: 40%;
+}
+footer{
+    display: flex;
+    justify-content: end;
+
+}
+
